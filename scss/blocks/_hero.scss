@@ -1,0 +1,39 @@
+
+
+.hero{
+    padding-top: 241px;
+    background-color: #F2F2F2;
+    background-image: url(../img/background.png);
+    background-repeat: no-repeat;
+    background-position: calc(50% + 596px) calc(50% - 70px);
+    position: relative;
+}
+
+.hero__inner{
+    width: 100%;
+    max-width:449px;
+    padding-bottom: 170px;
+}
+
+.hero__title{
+    font-weight:100 ;
+    font-size:56px ;
+    line-height: 64px;
+    color: $dark-color;
+    margin-top:0 ;
+    margin-bottom:24px ;
+}
+
+.hero__text{
+    font-size:18px ;
+    line-height:28px ;
+    color: $grey-color;
+    margin-top: 0;
+    margin-bottom: 36px;
+}
+
+.hero__phones{
+    position: absolute;
+    top: -56px;
+    right: -142px;
+}
